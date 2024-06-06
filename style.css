@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    height: 900px;
+}
+.chat{
+position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+.send-button{
+    margin-left:10px;
+    width: 70px;
+    height: 35px;
+    align-items: center;
+    font-weight: bold;
+}
+.chat-messages{
+    width: 500px;
+    height: 35px;
+    font-weight: bold;
+}
